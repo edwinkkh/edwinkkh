@@ -1,7 +1,7 @@
 ### Hi there I'm Edwin 👋
 
 
-😄 Backend Developer at [Accredify](https://accredify.io/)
+😄 Software Developer at [Accredify](https://accredify.io/)
 
 
 ![Edwin's github stats](https://github-readme-stats.vercel.app/api?username=edwinkkh&show_icons=true&count_private=true) 
