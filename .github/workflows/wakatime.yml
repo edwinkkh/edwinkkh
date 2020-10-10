@@ -1,9 +1,9 @@
 name: Waka Readme
 
-on: push
-  # schedule:
-  #   # Runs at 12am IST
-  #   - cron: '30 18 * * *'
+on:
+  schedule:
+    # Runs at 12am every week of the monday
+    - cron: '0 0 0 ? * MON *'
 
 jobs:
   update-readme:
@@ -16,3 +16,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_OS: "False"
           SHOW_PROJECTS: "False"
+          SHOW_PROFILE_VIEWS: "False"
