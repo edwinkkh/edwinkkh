@@ -8,7 +8,7 @@ Full stack developer building reliable, maintainable web applications.
 
 - **Backend:** PHP, Laravel, REST APIs, MySQL
 - **Frontend:** JavaScript, TypeScript, React, Inertia.js
-- **Cloud & DevOps:** AWS, Docker, GitLab CI/CD, GitHub Actions, GCC, SHIP-HATS
+- **Cloud & DevOps:** AWS, Docker, GitLab CI/CD, GitHub Actions, GCC
 - **Testing & quality:** Unit testing, K6, SonarQube, Nexus IQ, Fortify, visual regression testing
 
 ## Highlights
