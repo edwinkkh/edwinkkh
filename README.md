@@ -1,95 +1,48 @@
-### Hi there I'm Edwin 👋
+# Hi, I'm Edwin
+
+Software Engineer at Accredify, Singapore.
+
+Full stack developer building reliable, maintainable web applications.
+
+## What I work with
+
+- **Backend:** PHP, Laravel, REST APIs, MySQL
+- **Frontend:** JavaScript, TypeScript, React, Inertia.js
+- **Cloud & DevOps:** AWS, Docker, GitLab CI/CD, GitHub Actions, GCC
+- **Testing & quality:** Unit testing, K6, SonarQube, Nexus IQ, Fortify, visual regression testing
+
+## Highlights
+
+### Serverless PDF Generation
+
+**Tech Stack:** Laravel · Laravel Queues · AWS SDK · AWS Lambda · Puppeteer · Amazon S3
+
+Designed and implemented a queue-based, serverless PDF generation workflow to offload resource-intensive HTML-to-PDF processing from the main application.
+
+- **Architecture:** Used Laravel Queues to process PDF generation requests in the background without blocking application requests.
+- **Integration:** Invoked AWS Lambda synchronously through the AWS SDK from queued Laravel jobs.
+- **Processing & Storage:** Generated PDF documents using Puppeteer within Lambda and stored the resulting files in Amazon S3.
+- **Impact:** Offloaded resource-intensive PDF rendering from the main application, improving workload isolation and keeping document generation out of the user-facing request flow.
+
+### Government Commercial Cloud (GCC) – Application Support & Deployment
+
+**Tech Stack:**  AWS  · SonarQube · Nexus IQ · Fortify
+
+Supported application deployment and production operations within Singapore's Government Commercial Cloud (GCC) environment.
+
+- **Application Troubleshooting:** Supported applications hosted on AWS infrastructure within GCC, collaborating with DevOps engineers on application troubleshooting and deployment readiness.
+- **Cross-Team Collaboration:** Worked closely with DevOps engineers responsible for cloud infrastructure to troubleshoot deployment issues and prepare applications for go-live.
+- **Security & Code Quality:** Reviewed scan findings from SonarQube, Nexus IQ, and Fortify, implementing fixes to address code quality issues, security vulnerabilities, and dependency risks.
 
 
-😄 Software Developer at [Accredify](https://accredify.io/)
+### Automated Visual Regression Testing
 
+**Tech Stack:** React.js · Storybook · Loki · AWS Lambda · Amazon S3 · CI/CD
 
-![Edwin's github stats](https://github-readme-stats.vercel.app/api?username=edwinkkh&show_icons=true&count_private=true) 
+Designed and implemented automated visual regression testing to remove manual checking of different document templates written in React.js.
 
-
-<!--START_SECTION:waka-->
-**🐱 My Github Data** 
-
-> 🏆 625 Contributions in the Year 2021
- > 
-> 📦 234.6 kB Used in Github's Storage 
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 12 Public Repositories 
- > 
-> 🔑 42 Private Repositories  
- > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning    171 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.48% 
-🌆 Daytime    588 commits    ███████████░░░░░░░░░░░░░░   46.34% 
-🌃 Evening    417 commits    ████████░░░░░░░░░░░░░░░░░   32.86% 
-🌙 Night      93 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.33%
-
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday       195 commits    ███░░░░░░░░░░░░░░░░░░░░░░   15.37% 
-Tuesday      199 commits    ████░░░░░░░░░░░░░░░░░░░░░   15.68% 
-Wednesday    217 commits    ████░░░░░░░░░░░░░░░░░░░░░   17.1% 
-Thursday     166 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.08% 
-Friday       165 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.0% 
-Saturday     171 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.48% 
-Sunday       156 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.29%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-⌚︎ Time Zone: Asia/Singapore
-
-💬 Programming Languages: 
-TypeScript               6 mins              ███████████░░░░░░░░░░░░░░   43.63% 
-PHP                      5 mins              █████████░░░░░░░░░░░░░░░░   36.1% 
-JavaScript               2 mins              █████░░░░░░░░░░░░░░░░░░░░   20.14% 
-Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.13% 
-CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
-
-🔥 Editors: 
-VS Code                  14 mins             █████████████████████████   100.0%
-
-```
-
-**I Mostly Code in JavaScript** 
-
-```text
-JavaScript               15 repos            ██████░░░░░░░░░░░░░░░░░░░   25.42% 
-Vue                      12 repos            █████░░░░░░░░░░░░░░░░░░░░   20.34% 
-PHP                      11 repos            ████░░░░░░░░░░░░░░░░░░░░░   18.64% 
-Java                     4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   6.78% 
-TypeScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   6.78%
-
-```
-
-
-**Timeline**
-
-![Chart not found](https://raw.githubusercontent.com/edwinkkh/edwinkkh/master/charts/bar_graph.png) 
-
-
- Last Updated on 15/08/2021
-<!--END_SECTION:waka-->
-
-
-<!--
-**edwinkkh/edwinkkh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-- 🔭 I’m currently working on projects related to
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-📫 How to reach me: 
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- ⚡ Fun fact: ...
--->
+- **Architecture:** Catalogued the list of design templates in Storybook, so each template could be tested consistently in one place.
+- **Integration:** Used Loki for visual regression testing, with AWS Lambda and Amazon S3 supporting the test workflow and image storage.
+- **CI/CD Integration:** Integrated the visual regression test into the CI/CD pipeline, so it runs automatically whenever a pull request is created.
+- **Testing:** Compared generated documents against reference images to detect unintended document layout changes.
+- **Impact:** Removed the need to manually check each document template, while automatically catching unintended layout changes before they reached users.
