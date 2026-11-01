@@ -13,7 +13,6 @@ Full stack developer building reliable, maintainable web applications.
 
 ## Highlights
 
-
 ### Serverless PDF Generation
 
 **Tech Stack:** Laravel · Laravel Queues · AWS SDK · AWS Lambda · Puppeteer · Amazon S3
@@ -25,6 +24,15 @@ Designed and implemented a queue-based, serverless PDF generation workflow to of
 - **Processing & Storage:** Generated PDF documents using Puppeteer within Lambda and stored the resulting files in Amazon S3.
 - **Impact:** Offloaded resource-intensive PDF rendering from the main application, improving workload isolation and keeping document generation out of the user-facing request flow.
 
+### Government Commercial Cloud (GCC) – Application Support & Deployment
+
+**Tech Stack:**  AWS  · SonarQube · Nexus IQ · Fortify
+
+Supported application deployment and production operations within Singapore's Government Commercial Cloud (GCC) environment.
+
+- **Application Troubleshooting:** Supported applications hosted on AWS infrastructure within GCC, collaborating with DevOps engineers on application troubleshooting and deployment readiness.
+- **Cross-Team Collaboration:** Worked closely with DevOps engineers responsible for cloud infrastructure to troubleshoot deployment issues and prepare applications for go-live.
+- **Security & Code Quality:** Reviewed scan findings from SonarQube, Nexus IQ, and Fortify, implementing fixes to address code quality issues, security vulnerabilities, and dependency risks.
 
 
 ### Automated Visual Regression Testing
@@ -38,4 +46,3 @@ Designed and implemented automated visual regression testing to remove manual ch
 - **CI/CD Integration:** Integrated the visual regression test into the CI/CD pipeline, so it runs automatically whenever a pull request is created.
 - **Testing:** Compared generated documents against reference images to detect unintended document layout changes.
 - **Impact:** Removed the need to manually check each document template, while automatically catching unintended layout changes before they reached users.
-
